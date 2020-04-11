@@ -5,8 +5,23 @@
     <script src="p5.js"></script>
     <script src="p5.dom.min.js"></script>
     <script src="p5.sound.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.13.1/firebase.js"></script>
     <script src="./p5.play.js"></script>
     <script src="matter.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyDNIC61iQZOMEfeoYJ5s4500x4QgF2y1HA",
+            authDomain: "project-c34.firebaseapp.com",
+            databaseURL: "https://project-c34.firebaseio.com",
+            projectId: "project-c34",
+            storageBucket: "project-c34.appspot.com",
+            messagingSenderId: "620467988173",
+            appId: "1:620467988173:web:ed0370673e0797cf052b84"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <meta charset="utf-8">
 
@@ -14,8 +29,6 @@
 
 <body>
     <script src="sketch.js"></script>
-
-
 </body>
 
 </html>
